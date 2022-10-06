@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+
+        <nav>
+            <div class="logo">Travel</div>
+            <div class="toggle"></div>
+        </nav>
+
+        <div class="text">
+
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nisi ipsam ipsa in debitis vel eligendi dolorem necessitatibus. Ipsum, id.</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="/img/facebook.svg" alt=""></a></li>
+            <li><a href="#"><img src="/img/instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="/img/twitter.svg" alt=""></a></li>
+        </ul>
+
+        <video src="/bg.mp4" autoplay muted loop></video>
+
+        <div class="overlay"></div>
+
+
+
+    </div>
+
+    <div class="menu">
+        <ul class="">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+   
+
+
+    <script>
+
+        const toggle = document.querySelector('.toggle')
+        const container = document.querySelector('.container')
+
+        toggle.addEventListener('click', ()=>{
+            toggle.classList.toggle('active')
+            container.classList.toggle('active')
+        })
+
+    </script>
+</body>
+</html>
